@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+/**
+ * Theme Name: Basic
+ * Version: 1.0.0
+ * Theme URL: http://sequencejs.com/themes/basic/
+ *
+ * A simple, colorful side-to-side slider
+ *
+ * This theme is powered by Sequence.js - The
+ * responsive CSS animation framework for creating unique sliders,
+ * presentations, banners, and other step-based applications.
+ *
+ * Author: Ian Lunn
+ * Author URL: http://ianlunn.co.uk/
+ *
+ * Theme License: http://sequencejs.com/licenses/#free-theme
+ * Sequence.js Licenses: http://sequencejs.com/licenses/
+ *
+ * Copyright © 2015 Ian Lunn Design Limited unless otherwise stated.
+ */
+
+.seq {
+    position: relative;
+    /* Dimensions */
+    width: 100%;
+    height: 420px;
+    max-width: 100%;
+    /* Center the Sequence container on the page */
+    margin: 0 auto;
+    padding: 0;
+    /* Some basic styles */
+    font-family: sans-serif;
+}
+
+.seq .seq-pagination,
+.seq .seq-screen,
+.seq .seq-canvas,
+.seq .seq-canvas > * {
+    /* Reset the canvas and steps for better browser consistency */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.seq .seq-preloader {
+    background: #279FE5;
+}
+
+.seq .seq-canvas {
+    /* Make the canvas the same dimensions as the container and prevent lines
+     * from wrapping so each step can sit side-by-side */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    /* Reset the font-size to remove 4px from :before and .title */
+    font-size: 0;
+}
+
+.seq .seq-canvas > * {
+    /* Make the steps the same size as the container and sit side-by-side */
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+    text-align: center;
+    color: white;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.seq .seq-canvas > *:before {
+    /* Vertically align .seq-content */
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.seq .seq-content {
+    /* Default styles for content */
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 720px;
+    margin: 0 4%;
+    /* Reset the font-size from 0 back to 16 */
+    font-size: 16px;
+}
+
+.seq .seq-title {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.seq .seq-title {
+    display: block;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+
+    position: absolute;
+    padding: 5px 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51,51,51,0.8);
+    color: #fff;
+}
+
+.seq.seq-active {
+    /* when JS is enabled */
+    /* Hide anything that goes beyond the boundaries of the Sequence container */
+    overflow: hidden;
+}
+
+.seq.seq-active .seq-preloader,
+.seq.seq-active .seq-pagination {
+    visibility: visible;
+}
+
+.seq.seq-active .seq-preloader.seq-preloaded {
+    visibility: hidden;
+}
+
+.seq.seq-active .seq-preloader .seq-preload-circle {
+    fill: white;
+}
+
+.seq.seq-active .seq-title {
+    /* Starting positions */
+    opacity: 0;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+
+.seq.seq-active .seq-title {
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+
+.seq .seq-in .seq-title {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51,51,51,0.8);
+    color: #fff;
+    line-height: 1.2em;
+}
+
+.seq .seq-out .seq-title {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.sls-slide {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.seq .seq-nav,
+.seq .seq-pagination {
+    /* Hide navigation when JS is disabled */
+    display: none;
+}
+
+.seq.seq-active .seq-nav,
+.seq .seq-pagination {
+    /* Show navigation and pagination if JS is enabled */
+    display: block;
+}
+
+.seq .seq-pagination {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    z-index: 100;
+    line-height: 30px;
+}
+
+.seq .seq-pagination .sls-pagination-button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    color: #eee;
+    border: 2px solid #eee;
+    text-decoration: none;
+    border-radius: 100%;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.seq .seq-pagination .sls-pagination-button.seq-current {
+    background-color: #eee;
+}
+
+.seq .seq-pagination .sls-pagination-button:hover {
+    cursor: pointer;
+}
+
+.seq .seq-nav {
+    /* Styles for next/previous buttons and pagination */
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    pointer-events: none;
+    border: none;
+}
+
+.seq .seq-next,
+.seq .seq-prev {
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    width: 35px;
+    height: 66px;
+    border: none;
+    cursor: pointer;
+    pointer-events: auto;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    /* Image replacement */
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+.seq .seq-next {
+    right: 20px;
+    background: url("images/bt-next.png");
+}
+
+.seq .seq-next:focus,
+.seq .seq-next:hover {
+    -webkit-transform: translate3d(4px, 0, 0);
+    -ms-transform: translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0);
+}
+
+.seq .seq-prev {
+    left: 20px;
+    background: url("images/bt-prev.png");
+}
+
+.seq .seq-prev:focus,
+.seq .seq-prev:hover {
+    -webkit-transform: translate3d(-4px, 0, 0);
+    -ms-transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0);
+}

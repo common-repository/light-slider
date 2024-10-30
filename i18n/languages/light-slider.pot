@@ -1,0 +1,250 @@
+# Copyright (C) 2016 light-slider
+# This file is distributed under the same license as the light-slider package.
+msgid ""
+msgstr ""
+"Project-Id-Version: light-slider\n"
+"Report-Msgid-Bugs-To: http://saturnthemes.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Language-Team: SaturnThemes <saturnthemes@gmail.com>\n"
+"X-Generator: Poedit 1.8.8
+\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/light-slider/inc/class-sls-shortcodes.php:24, src/light-slider/inc/class-sls-shortcodes.php:33
+msgid "Slider does not exist"
+msgstr ""
+
+#: src/light-slider/inc/class-sls-shortcodes.php:40
+msgid "Please add slide to slider"
+msgstr ""
+
+#: src/light-slider/inc/sls-core-functions.php:12
+msgid "Modern"
+msgstr ""
+
+#: src/light-slider/inc/sls-core-functions.php:18
+msgid "Mono"
+msgstr ""
+
+#: src/light-slider/inc/admin/class-sls-admin-menus.php:15, src/light-slider/inc/admin/class-sls-admin-menus.php:15
+msgid "Light Slider"
+msgstr ""
+
+#: src/light-slider/inc/admin/class-sls-admin-slider.php:24
+msgid "Choose Image"
+msgstr ""
+
+#: src/light-slider/inc/admin/class-sls-admin-slider.php:25
+msgid "Choose Background Image"
+msgstr ""
+
+#: src/light-slider/inc/admin/class-sls-admin-slider.php:26, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:59
+msgid "Choose"
+msgstr ""
+
+#: src/light-slider/inc/admin/class-sls-admin-slider.php:27
+msgid "Do you want to remove this slide?"
+msgstr ""
+
+#: src/light-slider/inc/admin/class-sls-admin.php:57
+msgid "Do you want to remove this slider?"
+msgstr ""
+
+#: src/light-slider/themes/modern/data.php:19
+msgid "Heading"
+msgstr ""
+
+#: src/light-slider/themes/modern/data.php:26
+msgid "Description"
+msgstr ""
+
+#: src/light-slider/themes/modern/data.php:33
+msgid "Button"
+msgstr ""
+
+#: src/light-slider/themes/modern/data.php:41
+msgid "Image"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:2
+msgid "All Sliders"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:7, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:36
+msgid "ID"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:8, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:37
+msgid "Name"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:9, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:38
+msgid "Shortcode"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:10, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:39
+msgid "Date Created"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:11, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:40
+msgid "Last Modify"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:12, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:41
+msgid "Actions"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:25
+msgid "Edit"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:26, src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:57
+msgid "Preview"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:27
+msgid "Duplicate"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:28
+msgid "Delete"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:46
+msgid "Create New Slider"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-all-sliders.php:49
+msgid "Choose theme for new slider"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:9
+msgid "Add New Slider"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:11
+msgid "Edit Slider #%d"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:16
+msgid "Slider Settings"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:17, src/light-slider/inc/admin/views/html-admin-page-slider.php:165
+msgid "Slides"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:21
+msgid "General Settings"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:26
+msgid "Slider name"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:32
+msgid "Slider layout"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:35
+msgid "Boxed"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:36
+msgid "Full Width"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:42
+msgid "Content Slider Width"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:49
+msgid "Slider height"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:60
+msgid "Appearance"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:65, src/light-slider/inc/admin/views/html-admin-page-slider.php:191
+msgid "Background Image"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:69, src/light-slider/inc/admin/views/html-admin-page-slider.php:194, src/light-slider/inc/admin/views/html-admin-page-slider.php:231
+msgid "Change Image"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:70, src/light-slider/inc/admin/views/html-admin-page-slider.php:195, src/light-slider/inc/admin/views/html-admin-page-slider.php:232
+msgid "Clear"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:75, src/light-slider/inc/admin/views/html-admin-page-slider.php:199
+msgid "Background Color"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:86
+msgid "Navigation"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:91
+msgid "Enable Autoplay"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:101
+msgid "Autoplay Delay"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:107
+msgid "Autoplay Pause On Hover"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:117
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:127
+msgid "Show Navigation Pagination"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:142
+msgid "Miscellaneous"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:147
+msgid "Custom CSS Class"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:153
+msgid "Custom CSS"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:171
+msgid "Add Slide"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:178
+msgid "Slide Options"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:182
+msgid "Layout"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:204
+msgid "Layers"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:282
+msgid "Show/Hide Slide"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:283
+msgid "Duplicate Slide"
+msgstr ""
+
+#: src/light-slider/inc/admin/views/html-admin-page-slider.php:284
+msgid "Remove Slide"
+msgstr ""
